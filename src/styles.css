@@ -1,0 +1,29 @@
+.League {
+  background-color: #0f172a;
+  height: 100vh;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.img {
+  width: 150px;
+}
+.heading {
+  margin-bottom: 10px;
+}
+
+@media (min-width: "768px") {
+  img {
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
